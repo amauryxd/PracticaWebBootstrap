@@ -2,10 +2,11 @@ html{
     font-family: 'Poppins', sans-serif;
     font-family: 'Noto Sans JP', sans-serif;
     background-color: #c6dae5;
+    scroll-behavior: smooth;
 }
 
 .bgimg{
-    background-image: url("/docs/img/tuyucomparated.jpg");
+    background-image: url("/PracticaWeb/docs/img/tuyucomparated.jpg");
     background-color: #cccccc;
     height: 500px;
     background-position: center;
@@ -98,3 +99,4 @@ html{
 .imgbef{
     float: left;
 }
+

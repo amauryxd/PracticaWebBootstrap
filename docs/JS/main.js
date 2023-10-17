@@ -66,7 +66,7 @@ $btnkura.addEventListener("click",(e)=>{
 });
 
 async function imgAsyncronos(){
-    let respuesta = await fetch("js/imgs.json");
+    let respuesta = await fetch("JS/imgs.json");
     let images = await respuesta.json();
 
     let $tuyutuyu = document.querySelector("#tuyutuyu");

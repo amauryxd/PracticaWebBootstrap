@@ -1,7 +1,6 @@
 html{
     font-family: 'Poppins', sans-serif;
     font-family: 'Noto Sans JP', sans-serif;
-    background-color: #c6dae5;
     scroll-behavior: smooth;
 }
 
@@ -11,6 +10,27 @@ html{
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bgimg2{
+    background-image: url("/PracticaWeb/docs/img/low.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bgimg3{
+    background-image: url("/PracticaWeb/docs/img/ima.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #c6dae5;
     background-size: cover;
     position: relative;
 }
@@ -100,3 +120,39 @@ html{
     float: left;
 }
 
+.movercentro{
+    margin: 0 0 1rem;
+  height: 10rem;
+  display: flex;
+  align-items: start;
+  padding: .2rem;
+}
+
+.maxmarg2{
+    max-width: 100%;
+    padding: 0 10px 0px 47rem;
+}
+
+.btncs1{
+    background-color: #294366;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    color: #c6dae5;
+}
+
+.btncs2{
+    background-color: #5e6168;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    color: #c3bdc7;
+}
+
+.btncs3{
+    background-color: #fccd35;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    color: #2a2627;
+}

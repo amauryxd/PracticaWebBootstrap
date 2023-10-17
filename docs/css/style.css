@@ -5,7 +5,7 @@ html{
 }
 
 .bgimg{
-    background-image: url("/docs/img/tuyucomparated.jpg");
+    background-image: url("../img/tuyucomparated.jpg");
     background-color: #cccccc;
     height: 500px;
     background-position: center;
@@ -15,7 +15,7 @@ html{
 }
 
 .bgimg2{
-    background-image: url("/docs/img/low.jpg");
+    background-image: url("../img/low.jpg");
     background-color: #cccccc;
     height: 500px;
     background-position: center;
@@ -25,7 +25,7 @@ html{
 }
 
 .bgimg3{
-    background-image: url("/docs/img/ima.jpg");
+    background-image: url("../img/ima.jpg");
     background-color: #cccccc;
     height: 500px;
     background-position: center;

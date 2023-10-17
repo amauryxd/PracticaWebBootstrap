@@ -5,7 +5,7 @@ html{
 }
 
 .bgimg{
-    background-image: url("/PracticaWeb/docs/img/tuyucomparated.jpg");
+    background-image: url("/docs/img/tuyucomparated.jpg");
     background-color: #cccccc;
     height: 500px;
     background-position: center;
@@ -15,7 +15,7 @@ html{
 }
 
 .bgimg2{
-    background-image: url("/PracticaWeb/docs/img/low.jpg");
+    background-image: url("/docs/img/low.jpg");
     background-color: #cccccc;
     height: 500px;
     background-position: center;
@@ -25,7 +25,7 @@ html{
 }
 
 .bgimg3{
-    background-image: url("/PracticaWeb/docs/img/ima.jpg");
+    background-image: url("/docs/img/ima.jpg");
     background-color: #cccccc;
     height: 500px;
     background-position: center;
@@ -156,3 +156,104 @@ html{
     font-size: 20px;
     color: #2a2627;
 }
+
+.maxmarg3{
+    max-width: 100%;
+    padding: 0 10px 0px 23rem;
+}
+
+table{
+    padding: 5px 5px 5px 5px;
+}
+
+
+
+/*drop down xdsegundosegndo*/
+.butInd2{
+    background-color: #5e6168;
+    color:  #fefefe;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  .divdrop2{
+    position: relative;
+  display: inline-block;
+}
+  .dropIn2{
+      display: none;
+    position: absolute;
+    background-color: #c4c0ce;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transform: translate(-25%, 0);
+    border-radius: 8px;
+  }
+  
+  .dropIn2 a{
+      color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropIn2 a:hover{
+      background-color: #d3cedd
+  }
+
+  .divdrop2:hover .dropIn2{
+    display: block
+}
+  
+  .divdrop2:hover .butInd2{
+      background-color: #b5b1be;
+  }
+  /*ya no dropdown*/
+
+  /*drop down terceroceterhasjna*/
+  .butInd3{
+    background-color: #e3983b;
+    color:  #232122;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  .divdrop3{
+    position: relative;
+  display: inline-block;
+}
+  .dropIn3{
+      display: none;
+    position: absolute;
+    background-color: #fecd33;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transform: translate(-25%, 0);
+    border-radius: 8px;
+  }
+  
+  .dropIn3 a{
+      color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropIn3 a:hover{
+      background-color: #e99b3c
+  }
+
+  .divdrop3:hover .dropIn3{
+    display: block
+}
+  
+  .divdrop3:hover .butInd3{
+      background-color: #d4ad2a;
+  }
+  /*ya no dropdown*/

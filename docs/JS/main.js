@@ -11,7 +11,7 @@ $btnima.addEventListener("click",(e)=>{
     $bgimg.classList.add("bgimg3");
     $bgimg.classList.remove("bgimg");
     $bgimg.classList.remove("bgimg2");
-    $bgcolor.href = "./css/bgcolors3.css";
+    //$bgcolor.href = "./css/bgcolors3.css";
     $divdro.classList.add("divdrop3");
     $divdro.classList.remove("divdrop2");
     $divdro.classList.remove("divdrop");
@@ -21,6 +21,9 @@ $btnima.addEventListener("click",(e)=>{
     $dropin.classList.add("dropIn3");
     $dropin.classList.remove("dropIn2");
     $dropin.classList.remove("dropIn");
+    $bgcolor.classList.remove("bgcolorkura");
+    $bgcolor.classList.remove("bgcolorlow");
+    $bgcolor.classList.add("bgcolorima");
 });
 
 $btnlow.addEventListener("click",(e)=>{
@@ -32,7 +35,7 @@ $btnlow.addEventListener("click",(e)=>{
     $bgimg.classList.add("bgimg2");
     $bgimg.classList.remove("bgimg");
     $bgimg.classList.remove("bgimg3");
-    $bgcolor.href = "./css/bgcolors2.css";
+    //$bgcolor.href = "./css/bgcolors2.css";
     $divdro.classList.add("divdrop2");
     $divdro.classList.remove("divdrop");
     $divdro.classList.remove("divdrop3");
@@ -42,6 +45,9 @@ $btnlow.addEventListener("click",(e)=>{
     $dropin.classList.add("dropIn2");
     $dropin.classList.remove("dropIn");
     $dropin.classList.remove("dropIn3");
+    $bgcolor.classList.remove("bgcolorkura");
+    $bgcolor.classList.add("bgcolorlow");
+    $bgcolor.classList.remove("bgcolorima");
 });
 
 $btnkura.addEventListener("click",(e)=>{
@@ -53,7 +59,7 @@ $btnkura.addEventListener("click",(e)=>{
     $bgimg.classList.add("bgimg");
     $bgimg.classList.remove("bgimg3");
     $bgimg.classList.remove("bgimg2");
-    $bgcolor.href = "./css/bgcolors.css";
+    //$bgcolor.href = "./css/bgcolors.css";
     $divdro.classList.add("divdrop");
     $divdro.classList.remove("divdrop2");
     $divdro.classList.remove("divdrop3");
@@ -63,6 +69,10 @@ $btnkura.addEventListener("click",(e)=>{
     $dropin.classList.add("dropIn");
     $dropin.classList.remove("dropIn2");
     $dropin.classList.remove("dropIn3");
+    $bgcolor.classList.add("bgcolorkura");
+    $bgcolor.classList.remove("bgcolorlow");
+    $bgcolor.classList.remove("bgcolorima");
+    
 });
 
 async function imgAsyncronos(){

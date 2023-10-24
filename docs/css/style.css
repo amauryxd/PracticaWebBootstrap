@@ -162,7 +162,7 @@ html{
     padding: 0 10px 0px 23rem;
 }
 
-table{
+.tablepadding{
     padding: 5px 5px 5px 5px;
 }
 
@@ -257,3 +257,18 @@ table{
       background-color: #d4ad2a;
   }
   /*ya no dropdown*/
+
+  .bgcolorkura{
+    background-color: #c6dae5;
+    color: black;
+  }
+
+  .bgcolorlow{
+    background-color: #95959f;
+    color: #edeaf1;
+  }
+
+  .bgcolorima{
+    background-color: #fcce33;
+    color: #232122;
+  }
